@@ -1,0 +1,66 @@
+body{
+    background-image: url('https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+  .seasons{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 4em;
+    -webkit-text-stroke: 4px white;
+    letter-spacing: 5px;
+    line-height: 5rem;
+    text-align: right;
+    margin-top: 30rem;
+    margin-right: 60rem;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spring a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .spring a:hover {
+    color: black;
+    -webkit-text-stroke: 4px black;
+  }
+
+  .summer a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .summer a:hover {
+    color: black;
+    -webkit-text-stroke: 4px black;
+  }
+
+  .fall a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .fall a:hover {
+    color: black;
+    -webkit-text-stroke: 4px black;
+  }
+
+  .winter a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .winter a:hover {
+    color: black;
+    -webkit-text-stroke: 4px black;
+  }

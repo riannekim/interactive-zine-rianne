@@ -1,0 +1,129 @@
+body {
+    min-height: 100vh;
+    background: black;
+    padding: 2rem;
+  }
+  
+  .instructions {
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 4.8rem;
+    margin-bottom: 3.5rem;
+  }
+  
+  .click {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    letter-spacing: 1px;
+    margin-right: 1rem;
+    animation-name: click;
+    animation-duration: 1s;
+  }
+  
+  @keyframes click {
+    0%   {color: white;}
+    25%  {color: black;}
+    50%  {color: white;}
+    100% {color: black;}
+  }
+  
+  .the {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    letter-spacing: 1px;
+  }
+  
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .box1 {
+    width: 10rem;
+    height: 10rem;
+    background: #A5B0E3;
+    margin-left: 3rem;
+    transition: width 0.25s;
+    color: white;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .box2 {
+    width: 10rem;
+    height: 10rem;
+    background: #C1C6C8;
+    margin-left: 3rem;
+    transition: width 0.25s;
+    color: white;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .box3 {
+    width: 10rem;
+    height: 10rem;
+    background: #8DB9CA;
+    margin-left: 3rem;
+    transition: width 0.25s;
+    color: white;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .box4 {
+    width: 10rem;
+    height: 10rem;
+    background: #003D4C;
+    margin-left: 3rem;
+    transition: width 0.25s;
+    color: white;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-wrapper {
+    margin-left: 35rem;
+    margin-top: -39rem;
+  }
+  
+  .home {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5em;
+    -webkit-text-stroke: 2px black;
+    letter-spacing: 1px;
+    margin-left: 37rem;
+    margin-top: -7rem;
+  }
+  
+  .home a{
+    color: black;
+    text-decoration: none;
+    animation-name: home;
+    animation-duration: 4s;
+  }
+  
+  @keyframes home {
+    from {color: white;}
+    to {color: black;}
+  }
